@@ -1,20 +1,20 @@
-# iOS_Resource_Summary
-自己结合github上已有资源总结的关于iOS学习方面的素材，包括一些开源项目源码，第三方库推荐，技术大牛博客等内容，方便自己随时查看，也借此分享给他人，如果你有什么好的源码或者第三方框架推荐，请告诉我，我会及时更新，学习的路上，从点滴做起。  
-
-
-##前言
+## 前言
 Github众所周知，全球最大的同性社区交友网站，在这里你可以获取任何你想要的，只要你想，只要Ta有。
 从事开发几年在Github上Star了不少好的东西，当然学到了更多，在此深深的膜拜下那些开源的大神。
 切入正题，下面对自己使用过或者Star过的第三方框架整理下，便于日后查阅，也方便他人借鉴，如果大家有什么好的库推荐，欢迎在本文下方评论，本篇文章不定时更新...
+
+###*_戳这里----->_*[已上传Github at 2016.01.01](https://github.com/mahong125/iOS_Resource_Summary)
+
+------
 
 ####他人整理开源组件列表
 ### [awesome-ios](https://github.com/vsouza/awesome-ios)_<----点开有惊喜_
 ###[Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)_<----点开有惊喜_
 ###[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)*<----点开有惊喜*
+###[iOS第三方库列表](http://github.ibireme.com/github/list/ios/)*<----点开有惊喜*
 -------
 
 __iOS学习资源__
-
 - [iOS9-day-by-day](https://github.com/shinobicontrols/iOS9-day-by-day)
 - [iOS8-day-by-day](https://github.com/shinobicontrols/iOS8-day-by-day)
 - [iOS9AdaptationTips iOS9适配](https://github.com/ChenYilong/iOS9AdaptationTips)
@@ -25,7 +25,14 @@ __iOS学习资源__
 - [Git教程](https://github.com/numbbbbb/Git-Tutorial-By-liaoxuefeng)
 - [iOS开源APP列表](https://github.com/dkhamsing/open-source-ios-apps)
 - [iOS博客文章列表](https://github.com/JanzTam/iOS-blog-acticle)
+- [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
+- [awesome-swift](https://github.com/matteocrippa/awesome-swift)
+- [iOS开发学习笔记 入门必看](https://github.com/leecade/ios-dev-flow)
+- [iOS学习笔记 推荐](http://chengway.in/tag/ios-9/)
 
+
+--------
+#[苹果AppStore被拒理由大全](https://github.com/jcccn/Why-Reject)_<----点开有惊喜_
 --------
 
 ###开源项目源码
@@ -118,6 +125,9 @@ __网络请求__
 >Alamofire是一个简洁的网络库，用Swift语言编写。你是否曾经使用过AFNetworking呢？Alamofire是它的小弟。更年轻更时尚，当然（AFNetworking是用Objective-C编写的）
 - [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)
 >无疑是目前封装得最完善的Socket库了：支持异步TCP/UDP，支持GCD，Objective-C接口封装。。目前没有发现可以与之相比的同类产品
+- [RxAlamofire](https://github.com/RxSwiftCommunity/RxAlamofire)
+>对 Alamofire的封装，很是强大
+
 
 __基础工具类以及Category__
 
@@ -138,6 +148,8 @@ __基础工具类以及Category__
 >很是全面的一个扩展 iOS中的各种Objective-C Category, a collection of useful Objective-C Categories extending iOS Frameworks such as Foundation,UIKit,CoreData,QuartzCore,CoreLocation,MapKit Etc.
 - [RENCache](https://github.com/REN-LEI/RENCache)
 >简单方便的缓存
+- [RNCachingURLProtocol](https://github.com/rnapier/RNCachingURLProtocol)
+>webView 离线缓存库 好用
 - [PinYin4Objc](https://github.com/kimziv/PinYin4Objc)
 >拼音解析，很好用
 - [ZipArchive](https://github.com/mattconnolly/ZipArchive)
@@ -168,7 +180,8 @@ __弹出框__
 - [MJPopupViewController](https://github.com/martinjuhasz/MJPopupViewController)
 - [QBPopupMenu](https://github.com/questbeat/QBPopupMenu.git)
 >长按出现复制粘贴等工具view
-
+- [CWStatusBarNotification](https://github.com/cezarywojcik/CWStatusBarNotification)
+>酷炫的通知栏，多种通知样式，使用简单
 
 __动画__
 
@@ -216,6 +229,8 @@ __文本相关__
 >动效不错，23333
 - [DDRichText](https://github.com/daiweilai/DDRichText)
 >为图文混排提供了一个思路
+- [BMLine](https://github.com/AirSars/BMLine)
+>便捷的为你的view 添加线条。。。。简直福利啊
 
 
 __加载进度条__
@@ -306,6 +321,7 @@ __Json解析__
 
 - [Reflect](https://github.com/CharlinFeng/Reflect)
 >swift下模型解析
+
 ```
 .类反射
 [](https://github.com/CharlinFeng/Reflect/blob/master/README_CN.md#一键字典转模型).一键字典转模型
@@ -394,5 +410,19 @@ __IM相关__
 - [JSQMessagesViewController](http://jessesquires.github.io/JSQMessagesViewController)
 >很强大的消息界面UI库
 
+__存储相关__
+
+- [sskeychain](https://github.com/soffes/sskeychain)
+>便捷的使用keyChain存储用户名密码等
+
 --------
 
+##Tip
+
+---
+
+`学习的路上总是曲折的，每个人都是从菜鸟过来的，遇到问题总是希望能够与他人沟通交流，而在各种群里问了问题就石沉大海，所以想建一个技术交流为主的群，遇到的问题可以记录下来分享给他人，方便了自己，也造就了他人，不管怎样，记录点滴，但愿与君共勉`
+
+*QQ群号：527377492 *
+
+![Paste_Image.png](http://upload-images.jianshu.io/upload_images/327661-7686fb5eba924112.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
